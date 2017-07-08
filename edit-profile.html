@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Profile | Instaclone</title>
+		<meta charset="UTF-8">
+		<meta discription="Instaclone login page">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+		<nav class="navigation">
+			<div class="navigation__column">
+				<a href="feed.html">
+					<img src="images/logo.png" />
+				</a>
+			</div>
+			<div class="navigation__column">
+				<i class="fa fa-search"></i>
+                <input type="text" placeholder="Search">
+			</div>
+			<div class="navigation__column">
+				<a href="explore.html" class="navigation__link"> 
+				<i class="fa fa-compass"></i>
+				</a>
+				<a href="#" class="navigation__link"> 
+                <i class="fa fa-heart-o"></i>
+				</a>
+				<a href="profile.html" class="navigation__link"> 
+                <i class="fa fa-user-o"></i>
+				</a>
+			</div>
+		</nav>
+        <main class="edit-profile">
+            <div class="edit-profile__row">
+                <img src="images/avatar.jpg" alt="" class="edit-profile__avatar">
+                <h2 class="edit-profile__username">simhs0729</h2>
+            </div>
+            <form>
+                <div class="edit-profile__row">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" value="Hyunseop">
+                </div>
+                <div class="edit-profile__row">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" value="Hyunseop">
+                </div>
+                <div class="edit-profile__row">
+                    <label for="website">Website</label>
+                    <input type="text" id="website" value="ideasam.net">
+                </div>
+                <div class="edit-profile__row">
+                    <label for="bio">Bio</label>
+                    <textarea id="bio">Seoul</textarea>
+                </div>
+                <div class="edit-profile__row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" value="simhs0729@hotmail.com">
+                </div>
+                <div class="edit-profile__row">
+                    <label for="phone">Phone Number</label>
+                    <input type="email" id="phone" value="010-6398-9075">
+                </div>
+                <div class="edit-profile__row">
+                    <label for="gender">Gender</label>
+                    <select id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="not">Whatever</option>
+                    </select>
+                </div>
+                <div class="edit-profile__row">
+                    <span>Similar Account Suggestions</span>
+                    <input type="checkbox" id="similar">
+                    <label for="similar">Include your account when recommending similar accounts people might want to follow. <a href="#">[?]</a></label>
+                </div>
+                <div class="edit-profile__row">
+                    <label></label>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+		</main>
+		</nav>
+			<footer>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">about us</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Support</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Press</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Epic</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Jobs</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Privvacy</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Directory</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Language</a></li>
+                </ul>
+            <span class="footer__copyright">© 2017 Instagram</span>
+            </footer>
+	</body>
+</html>

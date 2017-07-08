@@ -1,0 +1,23 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    background-color: #FAFAFA;
+    }
+
+main{
+	margin-top: 60px;
+}
+
+
+main,
+footer{
+	max-width: 900px
+}
+
+input:focus {
+	outline:none;
+}
+
+textarea: focus{
+	outline: none;
+}
