@@ -117,3 +117,46 @@
 	box-sizing: border-box;
 	resize: none;	
 }
+
+
+.photo__avatar{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-right: 10px;
+	animation: 1.5s marinaRotates infinite linear;
+}
+
+@keyframs martinaRotates{
+	form{
+		transformation: rotate(0turn);
+	}
+	to{
+		transform: rotate(1turn);
+	}
+}
+
+@keyframs pump{
+	form{
+	animation: none;
+	}
+	to{
+		transform: scale(1.1, 1.1);
+	}
+}
+
+
+
+@keyframs fadeMain{
+	from{
+		transform: translate(20px);
+		opacity: 0;
+	}
+	to{
+		transform: none;
+		opacity: 1;
+	}
+}
+
+
+

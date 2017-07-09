@@ -6,6 +6,18 @@ body{
 
 main{
 	margin-top: 60px;
+	animation: .5s fadeMain linear;
+}
+
+@keyframes fadeMain{
+	from{
+		transform: translate(20px);
+		opacity: 0;
+	}
+	to{
+		transform:none;
+		opacity:1;
+	}
 }
 
 
@@ -21,3 +33,5 @@ input:focus {
 textarea: focus{
 	outline: none;
 }
+
+

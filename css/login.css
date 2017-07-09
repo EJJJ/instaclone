@@ -108,3 +108,15 @@ input[type="submit"]{
 #login__fb-link{
     color:#385185;
 }
+
+input[type="submit"]{
+    width: 100%
+    padding: 5px 0px;
+    display: black;
+    appearance:none;
+    
+}
+
+
+input[type="submit"]:{
+    trasform: rotate(5turn);

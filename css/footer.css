@@ -6,11 +6,13 @@ footer{
     font-weight: 700;
     width:90%;
     margin:55px auto;
+    flex-wrap: wrap;
 }
 
 .footer__list{
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 .footer__item{
