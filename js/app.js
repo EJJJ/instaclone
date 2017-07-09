@@ -2,6 +2,12 @@ $(document).ready(function(){
     
     var $heart = $('.heart'),
         $addComment = $('.photo__add-comment');
+        $addComment = $('.photo__add-comment'),
+        $ellipsis = $('.fa-ellipsis-h'),
+        $popUp = $('.popUp'),
+        $closePopup = $('.fa-times'),
+        $closePopUpBtn = $('.closePopUpBtn');
+
 
     $heart.click(function(){
         var likes = $(this).parent().parent()
@@ -28,6 +34,20 @@ $(document).ready(function(){
 		}
 	})	
 })
+
+
+    $ellipsis.click(function(){
+        //show popup
+        $popUp.fadeIn();
+    })
+
+    $closePopup.click(closePopup);
+    $closePopUpBtn.click(closePopup);
+
+    function closePopup(event){
+        event.preventDefault()
+        $popUp.fadeOut();
+    }
 
 
 
