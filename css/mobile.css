@@ -42,4 +42,41 @@
         margin-bottom: 10px;
     }
 
+    #phone-image{
+        display: none;    
+    }
+
+    #login{
+        width: 100%;
+    }
+
+    #login{
+        width: 95%;
+    }
+
+    .login__box{
+        background-color: transparent;
+        boder:none;
+    }
+
+    .login__box--form{
+        padding-top: 0;
+    }
+
+    .explore{
+        background-color: transparent;
+    }
+
+    .people__user{
+        border: none;
+    }
+
 }
+
+
+
+
+
+
+
+

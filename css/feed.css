@@ -5,9 +5,12 @@
 }
 
 .photo{
+	width:600px;
+	max-width: 600px;
 	background-color: white;
 	border:1px solid #e6e6e6;
 	margin-bottom: 20px;
+
 }
 
 .photo__comment{
@@ -127,16 +130,20 @@
 	animation: 1.5s marinaRotates infinite linear;
 }
 
-@keyframs martinaRotates{
+@keyframes martinaRotates{
 	form{
-		transformation: rotate(0turn);
+		transform: rotate(0turn);
 	}
 	to{
 		transform: rotate(1turn);
 	}
 }
 
-@keyframs pump{
+.fa-heart-o{
+	animation: .5s pump infinite linear;
+}
+
+@keyframes pump{
 	form{
 	animation: none;
 	}
@@ -160,3 +167,6 @@
 
 
 
+.photo__actions: i:last-child{
+	margin-left
+}
