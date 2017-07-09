@@ -170,3 +170,8 @@
 .photo__actions: i:last-child{
 	margin-left
 }
+
+
+.fa-heart {
+	color:red!important;
+}

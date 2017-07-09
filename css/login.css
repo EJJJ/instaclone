@@ -114,9 +114,12 @@ input[type="submit"]{
     padding: 5px 0px;
     display: black;
     appearance:none;
-    
+
 }
 
 
 input[type="submit"]:{
     trasform: rotate(5turn);
+
+
+
